@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/user/AndroidStudioProjects/Projects/library/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3ef4e359a7d7c74b36dde55823e32f51c6d68b9c">
+        <dex dex="/home/user/AndroidStudioProjects/Projects/app/build/intermediates/pre-dexed/debug/classes_95d235389c4698bf5e7ba0fe522a440f59ba4a90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a479485d1c9324be6137e6ea0c5b9f8d221f1973">
+        <dex dex="/home/user/AndroidStudioProjects/Projects/app/build/intermediates/pre-dexed/debug/classes_6d69e465cfe6ffba691e03953e8b24f8104e793a.jar" />
+    </item>
+
+</items>

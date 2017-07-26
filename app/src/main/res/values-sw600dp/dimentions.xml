@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="borderwidthofimage">1dp</dimen>
+    <dimen name="marginforCircularimage">10dp</dimen>
+    <dimen name="marginformerchantname">2dp</dimen>
+
+
+    <dimen name="textsizeFortoolbardata">20sp</dimen>
+    <dimen name="textSizeForCompanyMotto">25sp</dimen>
+    <dimen name="textSizeForHeading">19sp</dimen>
+    <dimen name="textSizeForDataIncoming">39sp</dimen>
+    <dimen name="textsizeForDialog">33sp</dimen>
+    <dimen name="textSizeForEditTextInDialog">20sp</dimen>
+    <dimen name="textSizeForButton">14sp</dimen>
+
+
+    <dimen name="marginoftoolbarlayout">5dp</dimen>
+    <dimen name="marginBottomAndLeftForViews">20dp</dimen>
+    <dimen name="marginForDatadisplay">100dp</dimen>
+    <dimen name="marginTopForHeadings">20dp</dimen>
+    <dimen name="marginTopForLayout">42dp</dimen>
+    <dimen name="marginTopForViews">42dp</dimen>
+    <dimen name="marginsForLayout">30dp</dimen>
+    <dimen name="marginForDialogs">50dp</dimen>
+    <dimen name="widthForLayouts">322dp</dimen>
+    <dimen name="dimentionsForCancelImageInDialog">40dp</dimen>
+    <dimen name="marginForLayoutsInDialog">18dp</dimen>
+    <dimen name="marginForViewsInDialog">40dp</dimen>
+    <dimen name="widthForViewsInDialogs">120dp</dimen>
+    <dimen name="marginBottomForButton">20dp</dimen>
+    <dimen name="marginsForButton">30dp</dimen>
+    <dimen name="widthForViews">45dp</dimen>
+    <dimen name="marginBottomForCompanyHeading">5dp</dimen>
+    <dimen name="widthForDatePicker">300dp</dimen>
+    <dimen name="heightForDatePicker">300dp</dimen>
+
+
+    <dimen name="paddingTopForViews">05dp</dimen>
+    <dimen name="paddingLeftAndRightForButton">40dp</dimen>
+    <dimen name="paddingForLayout">45dp</dimen>
+    <dimen name="paddingForDataDisplay">110dp</dimen>
+    <dimen name="paddingForTextViews">10dp</dimen>
+    <dimen name="paddingForDialogs">25dp</dimen>
+
+</resources>

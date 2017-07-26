@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundGray"
+    tools:context="com.example.user.project.MainActivity">
+
+    <!-- Here we have used Toolbar Layout for
+       -displaying Company logo
+       -and name of Merchant along with
+       -MerchantID's
+     -->
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_layout"
+        />
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- This TextView shows  the motto of the
+       -Company
+         -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSizeForCompanyMotto"
+        android:text="@string/company_motto"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTopForViews"
+        android:textColor="@color/TextColorForCompanyMotto"
+        android:layout_marginBottom="@dimen/marginBottomForCompanyHeading"
+        android:id="@+id/txvCompanyMotto"
+        android:layout_below="@+id/appBarLayout"
+        />
+
+    <!-- This textView shows the
+        - heading about VAT report
+       -->
+
+    <LinearLayout
+        android:id="@+id/date_RL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txvCompanyMotto"
+        android:layout_centerHorizontal="true"
+      >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvVatReportHeading"
+            android:text="@string/vat_report"
+            android:textSize="@dimen/textSizeForHeading"
+            android:textColor="@color/DarkBlue"
+            />
+
+        <!-- This TextView display the date picked
+           - by the user from datepicker
+         - Company
+           -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvDateDisplay"
+            android:paddingLeft="@dimen/paddingForTextViews"
+            android:paddingRight="@dimen/paddingForTextViews"
+            android:paddingTop="@dimen/paddingTopForViews"
+            android:paddingBottom="@dimen/paddingTopForViews"
+            android:text="@string/sampledate"
+            android:textColor="@color/DarkBlue"
+            android:background="@drawable/border_background"
+            android:textSize="@dimen/textSizeForHeading"
+            android:layout_marginLeft="15dp"
+             />
+
+        <!-- This ImageView is used for datePicking
+           - from the calender
+           -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imgDatePicker"
+            android:paddingLeft="@dimen/paddingForTextViews"
+            android:paddingRight="@dimen/paddingForTextViews"
+            android:background="@drawable/border_background_fordatepicker"
+            android:src="@drawable/filter_date_icon"
+             />
+
+
+    </LinearLayout>
+
+
+
+  <LinearLayout
+      android:layout_width="@dimen/widthForLayouts"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@color/TextColorWhite"
+      android:id="@+id/lnrDataForTransaction"
+      android:layout_marginTop="@dimen/marginTopForLayout"
+      android:layout_below="@+id/date_RL"
+      android:layout_toLeftOf="@+id/viewGap"
+      android:layout_toStartOf="@+id/viewGap"
+    >
+
+      <TextView
+          android:id="@+id/txvHeadingTransaction"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginBottom="@dimen/marginsForLayout"
+          android:layout_marginTop="@dimen/marginsForLayout"
+          android:text="@string/total_no_of_transactions"
+          android:textColor="@color/DarkBlue"
+          android:maxLines="1"
+          android:textSize="@dimen/textSizeForHeading"
+          android:textStyle="bold" />
+
+      <!--
+             -This textView display the data
+              - for total transactions
+              -->
+      <TextView
+          android:id="@+id/txvTotalTransactionData"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:drawableLeft="@drawable/transaction_data_icon"
+          android:drawablePadding="@dimen/paddingForTextViews"
+          android:drawableStart="@drawable/transaction_data_icon"
+          android:maxLines="1"
+          android:text="@string/_400"
+          android:layout_marginBottom="@dimen/marginsForLayout"
+          android:textColor="@color/BgLightBlue"
+          android:textSize="@dimen/textSizeForDataIncoming"
+           />
+  </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/widthForViews"
+        android:layout_height="0dp"
+        android:id="@+id/viewGap"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/lnrDataForTransaction"
+        android:layout_alignTop="@+id/lnrDataForTransaction" />
+<LinearLayout
+    android:layout_width="@dimen/widthForLayouts"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/TextColorWhite"
+    android:id="@+id/lnrTotalSale"
+    android:layout_alignTop="@+id/lnrDataForTransaction"
+    android:layout_toRightOf="@+id/viewGap"
+    android:layout_toEndOf="@+id/viewGap"
+    android:layout_alignBottom="@+id/lnrDataForTransaction">
+
+    <!--
+                  -This textView display the data
+                   - for total sale
+                   -->
+    <TextView
+        android:id="@+id/txvHeadingSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/marginsForLayout"
+        android:layout_marginBottom="@dimen/marginsForLayout"
+        android:text="@string/total_sale"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/textSizeForHeading"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/txvTotalSaleData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="@dimen/paddingForTextViews"
+        android:drawableLeft="@drawable/collection_data_icon"
+        android:drawableStart="@drawable/collection_data_icon"
+        android:maxLines="1"
+        android:text="@string/_13400"
+        android:textColor="@color/Green"
+        android:textSize="@dimen/textSizeForDataIncoming" />
+
+</LinearLayout>
+    <!-- This button is used to
+      - send the report to the respective client
+      -through a dialog
+      -->
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnExportReport"
+    android:paddingLeft="@dimen/paddingLeftAndRightForButton"
+    android:paddingRight="@dimen/paddingLeftAndRightForButton"
+    android:paddingTop="@dimen/paddingForTextViews"
+    android:paddingBottom="@dimen/paddingForTextViews"
+    android:textSize="@dimen/textSizeForButton"
+    android:textColor="@color/TextColorWhite"
+    android:textAlignment="center"
+    android:text="@string/export_report"
+    android:layout_marginBottom="@dimen/marginBottomForButton"
+    android:background="@drawable/background_btn"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true" />
+
+    <com.nhaarman.supertooltips.ToolTipRelativeLayout
+        android:id="@+id/activity_main_tooltipframelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

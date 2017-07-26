@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/user/AndroidStudioProjects/Projects/library/build/intermediates/res/merged/androidTest/debug/drawable/button_previous_month_selector.xml",
+        "source": "/home/user/AndroidStudioProjects/Projects/library/build/intermediates/bundles/debug/res/drawable/button_previous_month_selector.xml"
+    },
+    {
+        "merged": "/home/user/AndroidStudioProjects/Projects/library/build/intermediates/res/merged/androidTest/debug/drawable/button_next_month_selector.xml",
+        "source": "/home/user/AndroidStudioProjects/Projects/library/build/intermediates/bundles/debug/res/drawable/button_next_month_selector.xml"
+    },
+    {
+        "merged": "/home/user/AndroidStudioProjects/Projects/library/build/intermediates/res/merged/androidTest/debug/drawable/border_calender.xml",
+        "source": "/home/user/AndroidStudioProjects/Projects/library/build/intermediates/bundles/debug/res/drawable/border_calender.xml"
+    }
+]

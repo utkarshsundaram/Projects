@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:background="@drawable/border_date_picker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"><!--
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="4dp"
+        android:background="@color/DarkBlue"
+        android:layout_height="@dimen/heightForDatePicker">-->
+        <com.stacktips.view.CustomCalendarView
+            android:id="@+id/calendar_view"
+            android:layout_width="@dimen/widthForDatePicker"
+            android:layout_height="350dp"
+            android:background="@color/white"
+            app:calendarBackgroundColor="@color/white"
+            app:calendarTitleTextColor="#ffff"
+            app:currentDayOfMonthColor="@color/blue"
+            app:dayOfMonthTextColor="@color/CTAMegenta"
+            app:dayOfWeekTextColor="@color/black"
+            app:daysShownTextColor="@color/CTAMegenta"
+            app:titleLayoutBackgroundColor="@color/DarkBlue"
+            app:disabledDayBackgroundColor="@color/white"
+            app:disabledDayTextColor="@color/white"
+            app:selectedDayBackgroundColor="@color/blue"
+            app:weekLayoutBackgroundColor="@color/white" />
+   <!-- </android.support.v7.widget.CardView>-->
+</LinearLayout>

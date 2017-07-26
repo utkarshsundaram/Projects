@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="john_doe">John Doe</string>
+    <string name="merchant_id_445567">Merchant ID : # 445567</string>
+    <string name="company_motto">Simple. Easy. Fast.</string>
+    <string name="vat_report">Vat Report</string>
+    <string name="sampledate">date here</string>
+    <string name="total_no_of_transactions">Total No Of Transactions</string>
+    <string name="total_sale">Total Sales</string>
+    <string name="_400">400</string>
+    <string name="_13400">13400</string>
+    <string name="export_report">Export report</string>
+    <string name="your_report_is_ready">Your report is ready!</string>
+    <string name="email_id">Email Id</string>
+    <string name="cheers_your_report">Cheers ! Your report has been send to</string>
+    <string name="johndose_gmail_com"> johndose@gmail.com</string>
+    <string name="desc">Image to cancel the dialogs </string>
+
+</resources>

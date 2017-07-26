@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/quickcontact_drop_shadow.9.png",
+        "source": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/bundles/debug/res/drawable-hdpi-v4/quickcontact_drop_shadow.9.png"
+    },
+    {
+        "merged": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/tooltip_bottom_frame.9.png",
+        "source": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/bundles/debug/res/drawable-hdpi-v4/tooltip_bottom_frame.9.png"
+    },
+    {
+        "merged": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/tooltip_top_frame.9.png",
+        "source": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/bundles/debug/res/drawable-hdpi-v4/tooltip_top_frame.9.png"
+    },
+    {
+        "merged": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/tooltip_arrow_up.png",
+        "source": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/bundles/debug/res/drawable-hdpi-v4/tooltip_arrow_up.png"
+    },
+    {
+        "merged": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/tooltip_arrow_down.png",
+        "source": "/home/user/AndroidStudioProjects/Projects/libs/build/intermediates/bundles/debug/res/drawable-hdpi-v4/tooltip_arrow_down.png"
+    }
+]

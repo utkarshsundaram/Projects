@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="borderwidthofimage">1dp</dimen>
+    <dimen name="marginforCircularimage">10dp</dimen>
+    <dimen name="marginformerchantname">5dp</dimen>
+
+
+    <dimen name="textsizeFortoolbardata">17sp</dimen>
+    <dimen name="textSizeForCompanyMotto">33sp</dimen>
+    <dimen name="textSizeForHeading">25sp</dimen>
+    <dimen name="textSizeForDataIncoming">52sp</dimen>
+    <dimen name="textsizeForDialog">20sp</dimen>
+    <dimen name="textSizeForButton">18sp</dimen>
+    <dimen name="textSizeForEditTextInDialog">20sp</dimen>
+
+
+    <dimen name="marginoftoolbarlayout">10dp</dimen>
+    <dimen name="marginBottomAndLeftForViews">15dp</dimen>
+    <dimen name="marginForDatadisplay">100dp</dimen>
+    <dimen name="marginTopForHeadings">20dp</dimen>
+    <dimen name="marginTopForLayout">56dp</dimen>
+    <dimen name="marginTopForViews">56dp</dimen>
+    <dimen name="marginsForLayout">30dp</dimen>
+    <dimen name="marginForDialogs">50dp</dimen>
+    <dimen name="widthForLayouts">429dp</dimen>
+    <dimen name="dimentionsForCancelImageInDialog">40dp</dimen>
+    <dimen name="marginForLayoutsInDialog">18dp</dimen>
+    <dimen name="marginForViewsInDialog">40dp</dimen>
+    <dimen name="widthForViewsInDialogs">200dp</dimen>
+    <dimen name="marginsForButton">30dp</dimen>
+    <dimen name="widthForView">40dp</dimen>
+    <dimen name="marginBottomForButton">10dp</dimen>
+    <dimen name="widthForViews">61dp</dimen>
+    <dimen name="marginBottomForCompanyHeading">20dp</dimen>
+    <dimen name="widthForCalenderView">400dp</dimen>
+    <dimen name="heightForCalenderViews">450dp</dimen>
+    <dimen name="widthForDatePicker">300dp</dimen>
+    <dimen name="heightForDatePicker">350dp</dimen>
+
+    <dimen name="paddingLeftAndRightForButton">50dp</dimen>
+    <dimen name="paddingForLayout">45dp</dimen>
+    <dimen name="paddingForDataDisplay">100dp</dimen>
+    <dimen name="paddingForTextViews">10dp</dimen>
+    <dimen name="paddingTopForViews">05dp</dimen>
+    <dimen name="paddingForDialogs">25dp</dimen>
+
+</resources>

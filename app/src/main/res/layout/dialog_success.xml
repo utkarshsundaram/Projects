@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This layout is used to show a dialog when
+  - we have send the email to the the respective person
+  - successfully
+ -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/marginForLayoutsInDialog"
+        android:background="@drawable/border_background_for_dialog">
+
+      <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+          android:id="@+id/imgSuccessImage"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="30dp"
+          android:src="@drawable/email_success_icon"
+          />
+
+        <TextView
+            android:id="@+id/txvMessageSendHeading"
+            android:layout_below="@+id/imgSuccessImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginsForLayout"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:paddingLeft="@dimen/paddingForDataDisplay"
+            android:paddingStart="@dimen/paddingForDataDisplay"
+            android:paddingEnd="@dimen/paddingForDataDisplay"
+            android:textColor="@color/DarkBlue"
+            android:text="@string/cheers_your_report"
+            android:textSize="@dimen/textsizeForDialog"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingLeft="@dimen/paddingForDataDisplay"
+            android:paddingStart="@dimen/paddingForDataDisplay"
+            android:paddingEnd="@dimen/paddingForDataDisplay"
+            android:textColor="@color/DarkBlue"
+            android:text="@string/johndose_gmail_com"
+            android:textSize="@dimen/textsizeForDialog"
+            android:layout_below="@+id/txvMessageSendHeading"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgSuccessDialogClosed"
+        android:layout_width="@dimen/dimentionsForCancelImageInDialog"
+        android:layout_height="@dimen/dimentionsForCancelImageInDialog"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/cancelled" />
+
+
+</RelativeLayout>
